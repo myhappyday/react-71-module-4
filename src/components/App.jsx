@@ -10,7 +10,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      React-71-Module-4-node
+      React-71-Module-4-test
     </div>
   );
 };
