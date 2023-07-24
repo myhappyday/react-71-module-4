@@ -14,6 +14,7 @@ export default function Counter() {
   };
 
   useEffect(() => {
+    console.log('Запускається useEffect ' + Date.now());
     const totalClicks = counterA + counterB;
     document.title = `Разом клікнули ${totalClicks} раз`;
   }, [counterA, counterB]);

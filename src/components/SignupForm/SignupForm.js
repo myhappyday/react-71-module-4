@@ -2,6 +2,16 @@
 import useLocalStorage from '../../hooks/useLocalStorage';
 import styles from './SignupForm.module.css';
 
+// console.log('undefined || 1:', undefined || 1); //1
+// console.log('null || 1:', null || 1); //1
+// console.log('0 || 1:', 0 || 1); //1
+// console.log('false || true:', false || true); //true
+
+// console.log('undefined ?? 1:', undefined ?? 1); //1
+// console.log('null ?? 1:', null ?? 1); //1
+// console.log('0 ?? 1:', 0 ?? 1); //0
+// console.log('false ?? true:', false ?? true); //false
+
 export default function SignupForm() {
   // const inputState = useState('qwe');
   // console.log('inputState:', inputState);
