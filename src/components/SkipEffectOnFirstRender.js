@@ -20,15 +20,15 @@ export default function SkipEffectOnFirstRender() {
       return;
     }
 
-    console.log(`Выполняется useEffect - ${Date.now()}`);
+    console.log(`Виконується useEffect - ${Date.now()}`);
   });
 
   return (
     <div>
       <button onClick={() => setCount(c => c + 1)}>{count}</button>
       <p>
-        <code style={styles.code}>useEffect</code> этого компонента не
-        выполняется на первом рендере
+        <code style={styles.code}>useEffect</code> цього компонента не
+        виконується на першому рендері
       </p>
     </div>
   );
