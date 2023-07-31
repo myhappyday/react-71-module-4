@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Navigation.module.css';
+import { memo } from 'react';
 
 const Navigation = () => (
   <nav>
@@ -53,7 +54,7 @@ const Navigation = () => (
     </NavLink>
 
     <NavLink
-      to="/counter"
+      to="/counter-4.2"
       className={styles.link}
       // activeClassName={styles.activeLink}
     >
@@ -70,4 +71,6 @@ const Navigation = () => (
   </nav>
 );
 
-export default Navigation;
+// export default Navigation;
+
+export default memo(Navigation);

@@ -4,6 +4,7 @@ import SkipEffectOnFirstRender from './components/SkipEffectOnFirstRender';
 import SignupForm from './components/SignupForm/SignupForm';
 import ColorPicker from './components/ColorPicker/ColorPicker';
 import Counter from './components/Counter/Counter';
+import Counter2 from './components/Counter-4.2/Counter-4.2';
 import Clock from './components/Clock/Clock';
 import PokemonView from './views/PokemonView';
 import Friends from './components/Friends';
@@ -43,6 +44,7 @@ export default function App() {
           path="/skip-first-render"
           element={<SkipEffectOnFirstRender />}
         />
+        <Route path="/counter-4.2" element={<Counter2 />} />
         <Route path="/notes" element={<Friends />} />
 
         {/* <Route path="/signup">

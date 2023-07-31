@@ -16,7 +16,10 @@ export default function SkipEffectOnFirstRender() {
 
   useEffect(() => {
     if (isFirstRender.current) {
+      console.log('isFirstRender: ', isFirstRender);
+      console.log(`Виконується useEffect isFirstRender - ${Date.now()}`);
       isFirstRender.current = false;
+      console.log('isFirstRender: ', isFirstRender);
       return;
     }
 

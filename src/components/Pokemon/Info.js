@@ -17,8 +17,12 @@ export default function PokemonInfo({ pokemonName }) {
   const [status, setStatus] = useState(Status.IDLE);
 
   useEffect(() => {
+    console.log('Рендер');
     if (!pokemonName) {
       // Перший рендер, pokemonName це пустий рядок, не робимо fetch
+      console.log(
+        'Перший рендер, pokemonName це пустий рядок, не робимо fetch'
+      );
       return;
     }
 
