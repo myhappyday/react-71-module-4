@@ -8,6 +8,7 @@ import Counter2 from './components/Counter-4.2/Counter-4.2';
 import Clock from './components/Clock/Clock';
 import PokemonView from './views/PokemonView';
 import Friends from './components/Friends';
+import News from './components/News';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -46,6 +47,7 @@ export default function App() {
         />
         <Route path="/counter-4.2" element={<Counter2 />} />
         <Route path="/notes" element={<Friends />} />
+        <Route path="/news" element={<News />} />
 
         {/* <Route path="/signup">
           <SignupForm />

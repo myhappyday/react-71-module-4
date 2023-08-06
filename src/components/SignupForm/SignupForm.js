@@ -33,7 +33,7 @@ export default function SignupForm() {
         break;
 
       default:
-        return;
+        console.warn(`Тип поля name - ${name} не оброблюється`);
     }
   };
 

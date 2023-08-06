@@ -12,7 +12,6 @@ const Navigation = () => (
     >
       Форма
     </NavLink>
-
     <NavLink
       to="/colorpicker"
       className={styles.link}
@@ -20,7 +19,6 @@ const Navigation = () => (
     >
       Колорпікер
     </NavLink>
-
     <NavLink
       to="/counter"
       className={styles.link}
@@ -28,7 +26,6 @@ const Navigation = () => (
     >
       Лічильник
     </NavLink>
-
     <NavLink
       to="/clock"
       className={styles.link}
@@ -36,7 +33,6 @@ const Navigation = () => (
     >
       Годинник
     </NavLink>
-
     <NavLink
       to="/pokemon"
       className={styles.link}
@@ -44,7 +40,6 @@ const Navigation = () => (
     >
       Покемони з хуками
     </NavLink>
-
     <NavLink
       to="/skip-first-render"
       className={styles.link}
@@ -52,7 +47,6 @@ const Navigation = () => (
     >
       Пропуск першого рендера
     </NavLink>
-
     <NavLink
       to="/counter-4.2"
       className={styles.link}
@@ -60,13 +54,19 @@ const Navigation = () => (
     >
       useReducer
     </NavLink>
-
     <NavLink
       to="/notes"
       className={styles.link}
       // activeClassName={styles.activeLink}
     >
       useMemo
+    </NavLink>
+    <NavLink
+      to="/news"
+      className={styles.link}
+      // activeStyle={styles.activeLink}
+    >
+      Новини
     </NavLink>
   </nav>
 );
