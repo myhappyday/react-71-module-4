@@ -6,18 +6,18 @@
   color: #2a363b;
   font-size: 18px;
 
-  /* &.active {
+  &.active {
     color: #2196f3;
-  } */
+  }
 }
 
-.activeLink {
-  /* composes: link; */
+/* .activeLink {
+  composes: link;
   display: inline-block;
   text-decoration: none;
   padding: 12px;
   font-weight: 500;
   font-size: 18px;
   color: #2196f3;
-}
+} */
 
