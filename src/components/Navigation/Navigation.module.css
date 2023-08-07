@@ -11,6 +11,14 @@
   } */
 }
 
+.link.active {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: #2196f3;
+  font-size: 18px;
+}
 /* .activeLink {
   composes: link;
   display: inline-block;
@@ -21,6 +29,6 @@
   color: #2196f3;
 } */
 
-.linkActive {
+/* .linkActive {
   color: #2196f3;
-}
+} */

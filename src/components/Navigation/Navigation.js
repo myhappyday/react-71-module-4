@@ -8,60 +8,64 @@ const Navigation = () => (
     <NavLink
       to="/signup"
       className={styles.link}
-      activeClassName={styles.linkActive}
+      // activeClassName={styles.linkActive}
     >
       Форма
     </NavLink>
     <NavLink
       to="/colorpicker"
       className={styles.link}
-      activeClassName={styles.linkActive}
+      // activeClassName={styles.linkActive}
     >
       Колорпікер
     </NavLink>
     <NavLink
       to="/counter"
       className={styles.link}
-      activeClassName={styles.linkActive}
+      // activeClassName={styles.linkActive}
     >
       Лічильник
     </NavLink>
     <NavLink
       to="/clock"
       className={styles.link}
-      activeClassName={styles.linkActive}
+      // activeClassName={styles.linkActive}
     >
       Годинник
     </NavLink>
     <NavLink
       to="/pokemon"
       className={styles.link}
-      activeClassName={styles.linkActive}
+      // activeClassName={styles.linkActive}
     >
       Покемони з хуками
     </NavLink>
     <NavLink
       to="/skip-first-render"
       className={styles.link}
-      activeClassName={styles.linkActive}
+      // activeClassName={styles.linkActive}
     >
       Пропуск першого рендера
     </NavLink>
     <NavLink
       to="/counter-4.2"
       className={styles.link}
-      activeClassName={styles.linkActive}
+      // activeClassName={styles.linkActive}
     >
       useReducer
     </NavLink>
     <NavLink
       to="/notes"
       className={styles.link}
-      activeClassName={styles.linkActive}
+      // activeClassName={styles.linkActive}
     >
       useMemo
     </NavLink>
-    <NavLink to="/news" className={styles.link} activeStyle={styles.linkActive}>
+    <NavLink
+      to="/news"
+      className={styles.link}
+      // activeStyle={styles.linkActive}
+    >
       Новини
     </NavLink>
   </nav>
