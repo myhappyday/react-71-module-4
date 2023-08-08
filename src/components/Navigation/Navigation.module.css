@@ -11,7 +11,7 @@
   } */
 }
 
-.link.active {
+a.link.active {
   display: inline-block;
   text-decoration: none;
   padding: 12px;
